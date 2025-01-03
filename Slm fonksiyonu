@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <string.h>
+
+void slm(char t[]);
+
+int main(void) 
+{
+    char s[20];
+
+    printf("Adınız:");
+    scanf("%s",s);
+
+    slm(s);
+ 
+}
+
+void slm(char t[])
+{
+    printf("merhaba %s\n",t);
+
+    
+}
