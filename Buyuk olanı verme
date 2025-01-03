@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <string.h>
+
+int maksimum(int x,int y);
+
+int main(void) 
+{
+    int max;
+    max = maksimum(15,25);
+    printf("En büyük %d\n",max);
+}
+
+int maksimum(int x,int y)
+{
+    if(x > y)
+        return x;
+
+    else
+        return y;
+
+}
+
+
